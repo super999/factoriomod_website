@@ -7,13 +7,15 @@
 ## 如何运行
 
 启动运行
-
+```bash
 hexo server
+```
 
 发布
 
-git bash: hexo deploy
-
+```bash
+hexo deploy
+```
 ## 贡献
 
 如果你对我的博客有任何建议或想要贡献内容，请随时提出问题或提交拉取请求。
