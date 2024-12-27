@@ -65,7 +65,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /blog/img/index_img.jpg
 
 # The banner image of archive page
 archive_img:
@@ -87,7 +87,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: true
 
 # Website Background
 # Can set it to color or image url
@@ -257,9 +257,14 @@ footer:
   owner:
     enable: true
     since: 2019
-  custom_text:
+  custom_text: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span><i class="fa fa-heart"></i></a>
+    <br>
+    <a href="https://beian.miit.gov.cn/"  style="" target="_blank">备案号：闽ICP备13003266号-9</a>
+  '
   # Copyright of theme and framework
   copyright: true
+
 
 # --------------------------------------
 # Aside Settings
@@ -784,7 +789,7 @@ preloader:
 enter_transitions: true
 
 # Default display mode - light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Configuration for beautifying the content of the article
 beautify:
@@ -830,9 +835,9 @@ activate_power_mode:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   # The size of ribbon
-  size: 150
+  size: 200
   # The opacity of ribbon (0 ~ 1)
   alpha: 0.6
   zIndex: -1
@@ -860,7 +865,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999
   mobile: false
 
@@ -1042,7 +1047,7 @@ CDN:
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: jsdelivr
+  third_party_provider: cdnjs
 
   # Add version number to url, true or false
   version: false
